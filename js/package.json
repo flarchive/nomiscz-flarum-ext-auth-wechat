@@ -1,0 +1,17 @@
+{
+  "name": "@nomiscz/flarum-ext-auth-wechat",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "flarum-webpack-config": "^2.0.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "flarum": "github:flarum/types#v1"
+  }
+}
